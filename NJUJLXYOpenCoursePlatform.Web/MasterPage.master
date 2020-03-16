@@ -1,0 +1,151 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Images/logo/bitbug_favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title></title>
+    <!--<link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+    <!--<script src="Scripts/jquery-3.4.1.min.js"></script>-->
+    <!--<script src="Scripts/bootstrap.min.js"></script>-->
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/animate.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="References/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="References/css/pe-icons.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="cphHead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="master-wrapper">
+            <nav class="navbar navbar-default navbar-fixed-top fadeInDown" data-wow-delay="0.5s">
+                <div class="container-fluid">
+                    <div class="navbar-header smoothie">
+                        <asp:HyperLink ID="hlkHeader" runat="server" CssClass="navbar-brand" NavigateUrl="~/Index.aspx">
+                            <asp:Image ID="imgHeader" runat="server" ImageUrl="~/Images/logo/full_logo.png" Height="38" Width="214" />
+                            校内课程开放平台
+                        </asp:HyperLink>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">查找课程
+                                    <span class="pe-7s-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <asp:HyperLink ID="hlkCourseIse" runat="server" NavigateUrl="Department.aspx?Addr=ise">信息科学与工程学院</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkCourseCm" runat="server" NavigateUrl="Department.aspx?Addr=cm">传媒学院</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkCourseCz" runat="server" NavigateUrl="Department.aspx?Addr=cz">城市与土木工程学院</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkCourseScls" runat="server" NavigateUrl="Department.aspx?Addr=scls">化学与生命科学学院</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkCourseSy" runat="server" NavigateUrl="Department.aspx?Addr=sy">商学院</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkCourseSfl" runat="server" NavigateUrl="Department.aspx?Addr=sfl">外国语学院</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkCourseYsxy" runat="server" NavigateUrl="Department.aspx?Addr=ysxy">艺术学院</asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">相关链接
+                                    <span class="pe-7s-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <asp:HyperLink ID="hlkLinkJlyx" runat="server" NavigateUrl="http://www.jlxy.nju.edu.cn/">南京大学金陵学院</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkLinkEas" runat="server" NavigateUrl="http://219.219.117.113/">教务管理系统</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkLinkP" runat="server" NavigateUrl="http://p.jlxy.nju.edu.cn/">综合服务门户</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkLinkNju" runat="server" NavigateUrl="https://www.nju.edu.cn/">南京大学</asp:HyperLink>
+                                    </li>
+                                    <li>
+                                        <asp:HyperLink ID="hlkLinkNjuNews" runat="server" NavigateUrl="http://news.nju.edu.cn/">南京大学新闻网</asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">关于我们
+                                    <span class="pe-7s-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <asp:HyperLink ID="hlkAboutAbout" runat="server" NavigateUrl="~/About.aspx">关于我们</asp:HyperLink>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                                    <asp:Label ID="lblName" runat="server"></asp:Label>
+                                    <span class="pe-7s-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <asp:PlaceHolder ID="plh1" runat="server"></asp:PlaceHolder>
+                                    </li>
+                                    <li>
+                                        <asp:PlaceHolder ID="plh2" runat="server"></asp:PlaceHolder>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <asp:ContentPlaceHolder ID="cphContent" runat="server"></asp:ContentPlaceHolder>
+            <footer class="white-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <ul class="list-inline social-links wow fadeIn" data-wow-delay="0.5s">
+                                <li>
+                                    <asp:HyperLink ID="hlkJlxy" runat="server" NavigateUrl="http://www.jlxy.nju.edu.cn/">
+                                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo/full_logo.png" Height="38" Width="214" />
+                                    </asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hlkWeibo" runat="server" NavigateUrl="https://weibo.com/njujlxy">
+                                    <i class="fa fa-weibo"></i>
+                                    </asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hlkWeixin" runat="server" NavigateUrl="~/Images/qrcode/qrcode_ndjlxw_1.jpg">
+                                    <i class="fa fa-weixin"></i>
+                                    </asp:HyperLink>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr class="thin-hr" />
+                        <div class="col-md-12 text-center wow fadeIn" data-wow-delay="0.5s">
+                            <span class="copyright">Copyright © 2019 Designed by Arnold Kuang | 1253649392@qq.com</span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="References/js/jquery.js"></script>
+        <script src="References/js/bootstrap.min.js"></script>
+        <script src="References/js/plugins.js"></script>
+        <script src="References/js/init.js"></script>
+        <asp:ContentPlaceHolder ID="cphEnd" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

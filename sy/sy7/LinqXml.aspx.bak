@@ -1,0 +1,20 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LinqXml.aspx.cs" Inherits="sy7_LinqXml" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Button ID="btnCreate" runat="server" Text="创建XML文档" OnClick="BtnCreate_Click" />
+            <asp:Button ID="btnQuery" runat="server" Text="查询XML文档" OnClick="BtnQuery_Click" />
+            <asp:Button ID="btnInsert" runat="server" Text="插入元素" OnClick="BtnInsert_Click" />
+            <asp:Button ID="btnUpdate" runat="server" Text="修改元素" OnClick="BtnUpdate_Click" />
+            <asp:Button ID="btnDelete" runat="server" Text="删除元素" OnClick="BtnDelete_Click" />
+        </div>
+    </form>
+</body>
+</html>

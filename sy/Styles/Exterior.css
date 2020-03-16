@@ -1,0 +1,23 @@
+﻿p, div {
+    font-family: 隶书;
+}
+
+    p[title="attr Test"] {
+        color: #000080;
+    }
+
+    p[title=attributeTest] {
+        color: #800080;
+    }
+
+p {
+    color: #008000;
+}
+
+.classTest {
+    color: #800000;
+}
+
+#divTest {
+    color: #808000;
+}
