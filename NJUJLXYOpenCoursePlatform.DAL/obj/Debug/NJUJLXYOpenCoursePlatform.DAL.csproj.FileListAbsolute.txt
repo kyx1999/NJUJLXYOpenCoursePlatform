@@ -1,12 +1,7 @@
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\bin\Debug\NJUJLXYOpenCoursePlatform.DAL.dll.config
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\bin\Debug\NJUJLXYOpenCoursePlatform.DAL.dll
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\bin\Debug\NJUJLXYOpenCoursePlatform.DAL.pdb
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\obj\Debug\NJUJLXYOpenCoursePlatform.DAL.csproj.CoreCompileInputs.cache
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\obj\Debug\NJUJLXYOpenCoursePlatform.DAL.dll
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\obj\Debug\NJUJLXYOpenCoursePlatform.DAL.pdb
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\bin\Debug\NJUJLXYOpenCoursePlatform.DAL.dll.config
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\bin\Debug\NJUJLXYOpenCoursePlatform.DAL.dll
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\bin\Debug\NJUJLXYOpenCoursePlatform.DAL.pdb
+C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\obj\Debug\NJUJLXYOpenCoursePlatform.DAL.csprojAssemblyReference.cache
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\obj\Debug\NJUJLXYOpenCoursePlatform.DAL.csproj.CoreCompileInputs.cache
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\obj\Debug\NJUJLXYOpenCoursePlatform.DAL.dll
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\NJUJLXYOpenCoursePlatform.DAL\obj\Debug\NJUJLXYOpenCoursePlatform.DAL.pdb

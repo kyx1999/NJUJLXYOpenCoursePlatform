@@ -8,13 +8,3 @@ C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetSh
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.csproj.CopyComplete
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.dll
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.pdb
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\bin\Debug\MyPetShop.BLL.dll
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\bin\Debug\MyPetShop.BLL.pdb
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\bin\Debug\MyPetShop.DAL.dll
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\bin\Debug\MyPetShop.DAL.pdb
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\bin\Debug\MyPetShop.DAL.dll.config
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.csprojAssemblyReference.cache
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.csproj.CoreCompileInputs.cache
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.csproj.CopyComplete
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.dll
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.BLL\obj\Debug\MyPetShop.BLL.pdb

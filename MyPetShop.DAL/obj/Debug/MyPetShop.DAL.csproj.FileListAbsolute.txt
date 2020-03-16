@@ -1,12 +1,7 @@
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll.config
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.pdb
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.csproj.CoreCompileInputs.cache
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.dll
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.pdb
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll.config
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll
-C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.pdb
+C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.csprojAssemblyReference.cache
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.csproj.CoreCompileInputs.cache
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.dll
 C:\Repositories\GitHub\NJUJLXYOpenCoursePlatform\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.pdb
