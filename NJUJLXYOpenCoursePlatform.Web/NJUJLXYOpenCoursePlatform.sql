@@ -21,7 +21,7 @@ CREATE TABLE [User] ([UserId] bigint PRIMARY KEY,
 [Name] nvarchar(20) NOT NULL,
 [Sex] nchar(10) NOT NULL,
 [Department] nvarchar(20) NOT NULL,
-[Identity] nchar(10) NOT Null,
+[Identity] nchar(10) NOT NULL,
 [Email] nvarchar(40) NOT NULL)
 CREATE TABLE [Course] ([CourseId] int PRIMARY KEY,
 [Name] nvarchar(20) NOT NULL,
