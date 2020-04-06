@@ -22,7 +22,7 @@ CREATE TABLE [User] ([UserId] bigint PRIMARY KEY,
 [Sex] nchar(10) NOT NULL,
 [Department] nvarchar(20) NOT NULL,
 [Identity] nchar(10) NOT Null,
-[Email] nvarchar(40) NOT NULL,)
+[Email] nvarchar(40) NOT NULL)
 CREATE TABLE [Course] ([CourseId] int PRIMARY KEY,
 [Name] nvarchar(20) NOT NULL,
 [Descn] nvarchar(80) NOT NULL,
